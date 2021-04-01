@@ -1,2 +1,6 @@
 # Framework
-각종 프레임워크 및 라이브러리 학습을 해볼까?
+### 1. React ( 참고 )
+
+- https://react.vlpt.us/basic/
+- https://ko.reactjs.org/
+- 인프런 React 강의
