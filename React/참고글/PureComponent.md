@@ -28,17 +28,17 @@ componentDidUpdate(prevProps, prevState, snapshot){}
 ```react
 import React, { Component } from 'react';
 
-class BlahBlah extends Component {
+class test_1 extends Component {
   state = {
     count: 0
   }
   counter () {
     this.setState({
-      count: this.state.count // 주목! 값이 변경되지는 않으나, setState는 써줌!!
+      count: this.state.count
     })
   }
   componentDidUpdate () {
-    console.log(this.state.count); // 컴포넌트가 업데이트되면 값을 출력시킨다.
+    console.log(this.state.count);
   }
   render () {
     return (
@@ -62,17 +62,17 @@ export default BlahBlah;
 ```react
 import React, { PureComponent } from 'react';
 
-class BlahBlah extends PureComponent {
+class test_2 extends PureComponent {
   state = {
     count: 0
   }
   counter () {
     this.setState({
-      count: this.state.count // 주목! 값이 변경되지는 않으나, setState는 써줌!!
+      count: this.state.count
     })
   }
   componentDidUpdate () {
-    console.log(this.state.count); // 컴포넌트가 업데이트되면 값을 출력시킨다.
+    console.log(this.state.count);
   }
   render () {
     return (
